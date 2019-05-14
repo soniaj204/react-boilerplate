@@ -13,7 +13,7 @@
 import closeIconImage from '../../images/close/close.png';
 import spinnerImage from '../../images/spinner/spinner.png';
 
-
+export const closeIcon = closeIconImage;
 export const spinner = spinnerImage;
 export const LOAD_REPOS = 'boilerplate/App/LOAD_REPOS';
 export const LOAD_REPOS_SUCCESS = 'boilerplate/App/LOAD_REPOS_SUCCESS';

@@ -59,17 +59,14 @@ injectGlobal`
       }
 
       .closeIcon {
+        background: url(${closeIcon}) scroll no-repeat 0 0;
+        text-indent: -9999px;
+        width: 14px;
+        height: 14px;
+        opacity: 1;
+        cursor: pointer;
         float: right;
-          &::after {
-          content: "x";
-          width: 14px;
-          height: 14px;
-          opacity: 1;
-          cursor: pointer;
-          top: -5px;
-          position: relative;
-          font-size: 20px;
-        }
+        background-size: 100% 100%;
       }
     }
 
