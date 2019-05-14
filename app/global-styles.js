@@ -59,14 +59,17 @@ injectGlobal`
       }
 
       .closeIcon {
-        background: url(${closeIcon}) scroll no-repeat 0 0;
-        text-indent: -9999px;
-        width: 14px;
-        height: 14px;
-        opacity: 1;
-        cursor: pointer;
         float: right;
-        background-size: 100% 100%;
+          &::after {
+          content: "x";
+          width: 14px;
+          height: 14px;
+          opacity: 1;
+          cursor: pointer;
+          top: -5px;
+          position: relative;
+          font-size: 20px;
+        }
       }
     }
 
@@ -105,7 +108,7 @@ injectGlobal`
 
   .ReactModal__Overlay {
     opacity: 0;
-    transition: opacity 500ms ease-in-out;
+    transition: opacity 5\00ms ease-in-out;
   }
 
   .ReactModal__Overlay--after-open{
