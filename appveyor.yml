@@ -44,7 +44,7 @@ cache:
   - "%LOCALAPPDATA%\\Yarn"
   - node_modules -> package.json
 
-# remove, as appveyor doesn't support secure variables on pr builds
+# remove, as appveyor doesn't support secure from 'styles/settings/color'; on pr builds
 # so `COVERALLS_REPO_TOKEN` cannot be set, without hard-coding in this file
 #on_success:
 #- yarn run coveralls

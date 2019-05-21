@@ -67,8 +67,8 @@ export default class ComponentsTestPage extends React.Component {
         <Toasts />
 
         <FormGroup>
-          <Label for="date">Date:</Label>
-          <Datepicker />
+          <Label>Date:</Label>
+          <Datepicker/>
         </FormGroup>
 
         <ModalPopup />
@@ -77,7 +77,7 @@ export default class ComponentsTestPage extends React.Component {
 
         <ShortcodeStyle>
           <div class="shotcode_test">
-            <h1>Short Code Test</h1>
+            <h2>Short Code Test</h2>
             <p className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

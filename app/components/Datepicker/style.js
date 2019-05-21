@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { primaryStyle } from 'themes/variables';
+import { primaryStyle } from 'styles/settings/color';
 
 const DatepickerStyle = styled.div`
   .react-datepicker-wrapper {

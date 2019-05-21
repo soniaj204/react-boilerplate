@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { closeIcon } from 'containers/App/constants';
-import {success, danger, warning} from 'themes/variables';
+import {success, danger, warning} from 'styles/settings/color';
 
 const ToastContainerStyle = styled.div`
   .Toastify__toast-container {

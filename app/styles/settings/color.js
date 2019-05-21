@@ -35,7 +35,21 @@ export const disabled = '#D8D8D8';
 // transition
 export const transition = 'all 0.35s';
 
-// style guide
 
-export const primaryStyle = '#3ab4a5';
-export const primaryHoverStyle = '#2e9084';
+// style guide colors
+
+export const primaryStyle                  = '#3ab4a5';
+export const primaryHoverStyle             = '#2e9084';
+export const secondaryStyle                = '#d14836';
+export const secondaryHoverStyle           = '#a6392a';
+export const linkStyle                     = '#0000ee';
+export const whiteStyle                    = '#ffffff';
+export const bodyBgStyle                   = '#f1f2f5';
+export const borderStyle                   = '#d3d4dd';
+export const lightGrayStyle                = '#bbbbbb';
+export const grayStyle                     = '#777777';
+export const darkGrayStyle                 = '#454546';
+export const blackStyle                    = '#000000';
+export const successStyle                  = '#1ab863';
+export const dangerStyle                   = '#d93025';
+export const warningStyle                  = '#e58626';
