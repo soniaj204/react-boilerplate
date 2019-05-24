@@ -1,6 +1,6 @@
 import { css } from 'styled-components';
 
-import { primaryStyle, primaryHoverStyle } from 'themes/variables';
+import { primaryStyle, primaryHoverStyle } from 'styles/settings/color';
 
 const buttonHeight = '50px';
 

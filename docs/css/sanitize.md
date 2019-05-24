@@ -7,7 +7,7 @@ overridden).
 
 It was selected over older projects like `normalize.css` and `reset.css` due
 to its greater flexibility and better alignment with CSSNext features like CSS
-variables.
+from 'styles/settings/color';.
 
 See the [official documentation](https://github.com/10up/sanitize.css) for more
 information.

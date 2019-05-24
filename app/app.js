@@ -34,7 +34,7 @@ import configureStore from './configureStore';
 import { translationMessages } from './i18n';
 
 // Import CSS reset and Global Styles
-import './global-styles';
+import '../app/styles/base/global-styles';
 
 // Observe loading of Open Sans (to remove open sans, remove the <link> tag in
 // the index.html file and this observer)
