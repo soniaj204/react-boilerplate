@@ -18,4 +18,8 @@ export default defineMessages({
     id: 'boilerplate.components.Header.componentsTest',
     defaultMessage: 'Components Test',
   },
+  skeletonLoader: {
+    id: 'boilerplate.components.Header.componentsTest',
+    defaultMessage: 'Skeleton Loader',
+  },
 });

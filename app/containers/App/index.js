@@ -15,6 +15,7 @@ import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import ComponentsTestPage from 'containers/ComponentsTestPage/Loadable';
+import SkeletonLoaders from 'containers/SkeletonLoaders/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
@@ -44,6 +45,7 @@ export default function App() {
           <Route exact path="/" component={HomePage} />
           <Route path="/features" component={FeaturePage} />
           <Route path="/components-test" component={ComponentsTestPage} />
+          <Route path="/skeleton-loaders" component={SkeletonLoaders} />
           <Route path="" component={NotFoundPage} />
         </Switch>
         {/* <Footer /> */}

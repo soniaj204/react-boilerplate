@@ -26,6 +26,9 @@ class Header extends React.Component {
           <HeaderLink to="/components-test">
             <FormattedMessage {...messages.componentsTest} />
           </HeaderLink>
+          <HeaderLink to="/skeleton-loaders">
+            <FormattedMessage {...messages.skeletonLoader} />
+          </HeaderLink>
         </NavBar>
       </div>
     );
