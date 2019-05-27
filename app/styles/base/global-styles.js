@@ -121,6 +121,13 @@ injectGlobal`
     transform: translate(0,-25%) !important;
     margin: 1.75rem auto;
     position: relative !important;
+
+    @media only screen and (max-width: 640px) {
+      width: 90vw;
+    }
+
+
+
   }
 
   .ReactModal__Content--after-open {

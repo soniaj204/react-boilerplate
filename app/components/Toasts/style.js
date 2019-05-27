@@ -1,10 +1,17 @@
 import styled from 'styled-components';
 import { closeIcon } from 'containers/App/constants';
 import {success, danger, warning} from 'styles/settings/color';
+import {small} from 'styles/utilities/media-query';
+
 
 const ToastContainerStyle = styled.div`
   .Toastify__toast-container {
     // width: 600px;
+
+    @media only screen and (max-width: 480px) {
+      width: 90vw;
+      left: 5vw;
+    }
   }
   .Toastify__toast {
     background: #ffffff;
